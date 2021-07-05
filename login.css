@@ -1,0 +1,137 @@
+*{
+    font-family: sans-serif;
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url('data:image/jpeg;base64,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');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header{
+    border: 1px solid #000;
+    background-color: lightgray;
+    padding: 10px 10px;
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar a img{
+    width: 40px;
+}
+
+.navbar img{
+    width: 50px;
+}
+
+.navbar form{
+    margin: 5px 10px;
+}
+
+.navbar form input{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: 70%;
+}
+
+
+.navbar form button{
+    border: none;
+    border-radius: 5px;
+    background-color: #002400;
+    color: #fff;
+}
+
+.parent{
+    color: #fff;
+}
+
+.child{
+    margin: 120px auto;
+    width: 300px;
+    max-width: 300px;
+    box-shadow: 0px 0px 10px #000;
+    border: 1px double #fff;
+}
+
+h2{
+    text-align: center;
+}
+
+.inp input{
+    width: 95%;
+    margin: 0px 0px 10px 10px;
+    padding: 8px;
+    outline: none;
+}
+
+.ForPassword a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.ForPassword a:hover{
+    text-decoration: underline;
+    color: darkcyan ;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.login input{
+    width: 90%;
+    margin: 10px 0px 10px 12px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+
+.login input:hover{
+    background-color: darkcyan;
+    color: #fff;
+}
+
+p{
+    font-size: larger;
+    margin-left: 15px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+p a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+p a:hover{
+    text-decoration: underline;
+    color: darkcyan;
+}
+
+
+.signIn button{
+    width: 90%;
+    margin: 10px 0px 10px 15px;
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    outline: none;
+}
+
+.signIn button:hover{
+    background-color: darkcyan;
+    color: #fff;
+}

@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLX - Buy and Sell for free anywhere in Pakistan with OLX online classifieds</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+<script>
+    function hello() {
+        alert('Login First');
+        var location = window.location.href
+        window.location.replace('login.html');
+    }
+</script>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row header bg-light" id="hello">
+
+            <div class="col-md-1  header1">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Logotyp_OLX_.png" width="50px" alt="OLX">
+            </div>
+
+            <div class="col-md-3 header2">
+                <form>
+                    <select
+                        style="background-image: url(https://image.shutterstock.com/image-vector/magnifying-glass-icon-vector-search-260nw-1727624158.jpg); background-repeat: no-repeat; background-position: cover; background-size: 50px; padding-left: 50px;"
+                        name="Location">
+                        <option value="Pakistan" selected="selected">Pakistan</option>
+                        <option value="Sindh">Sindh</option>
+                        <option value="Punjab">Punjab</option>
+                        <option value="Balochistan">Balochistan</option>
+                        <option value="KyberPakhtonKhaw">KyberPakhtonKhaw</option>
+                    </select>
+                </form>
+            </div>
+
+            <div class="col-md-6 header3">
+                <form>
+                    <input type="text" name="Search" placeholder="Find Cars,Mobile Phones and more...">
+                    <i class="fas fa-2x fa-search"></i>
+                </form>
+            </div>
+
+            <div class="col-md-1 header4">
+                <div>
+                    <a href="login.html">Login</a>
+                </div>
+            </div>
+
+            <div class="col-md-1 header5">
+                <button onclick="hello()">+Sell</button>
+            </div>
+
+        </div>
+
+
+
+        <div class="row subHeader">
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown ">
+                                <a class="nav-link  active dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    ALL CATEGORIES
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Books,Sports & Hobbies</a></li>
+                                    <li><a class="dropdown-item" href="#">Business & Industrial</a></li>
+                                    <li><a class="dropdown-item" href="#">Furniture & Home Decor</a></li>
+                                    <li><a class="dropdown-item" href="#">Fashion & beauty</a></li>
+                                    <li><a class="dropdown-item" href="#">Property for Rent</a></li>
+                                    <li><a class="dropdown-item" href="#">Property for Sale</a></li>
+                                    <li><a class="dropdown-item" href="#">Animals</a></li>
+                                    <li><a class="dropdown-item" href="#">Bikes</a></li>
+                                    <li><a class="dropdown-item" href="#">Kids</a></li>
+                                    <li><a class="dropdown-item" href="#">Jobs</a></li>
+                                    <li><a class="dropdown-item" href="#">Services</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item hell">
+                                <a class="nav-link active" aria-current="page" href="#">Mobile Phones</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Cars</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Motercycles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Houses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">TV-Video-Audio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Tablets</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Land & Plots</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+
+
+
+        <!-- Dont Remove this row -->
+
+        <div class="row">
+            <div class="col-md-12 mainImg"></div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-12  main">
+                <div class="cards">
+                    <p class="mainParah">Fresh recommendations</p>
+                    <div class="card pt-4 px-5" style="width: 20rem;">
+                        <img src="Pics/img.jpg" height="200px" class="card-img-top" alt="olxCard">
+                        <div class="card-body">
+                            <p class="card-text"> RS 7,500 <br> <span> QMOBILE... </span> </p>
+                        </div>
+                    </div>
+
+                    <div class="card pt-4 px-5" style="width: 20rem;">
+                        <img src="Pics/img1.webp" height="200px" class="card-img-top" alt="olxCard">
+                        <div class="card-body">
+                            <p class="card-text"> RS 63,000 <br> <span> bed set complete... </span> </p>
+                        </div>
+                    </div>
+
+                    <div class="card pt-4 px-5" style="width: 20rem;">
+                        <img src="Pics/img2.jpg" height="200px" class="card-img-top" alt="olxCard">
+                        <div class="card-body">
+                            <p class="card-text"> RS 1,020,000 <br> <span> good condition best fuel avg... </span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card pt-4 px-5" style="width: 20rem;">
+                        <img src="Pics/img3.jpg" height="200px" class="card-img-top" alt="olxCard">
+                        <div class="card-body">
+                            <p class="card-text"> RS 16,999 <br> <span> new city android led full HD... </span> </p>
+                        </div>
+                    </div>
+
+                    <div class="card pt-4 px-5" style="width: 20rem;">
+                        <img src="Pics/img4.jpg" height="200px" class="card-img-top" alt="olxCard">
+                        <div class="card-body">
+                            <p class="card-text"> RS 110,000 <br> <span> Nikon D800 In mint Condition </span> </p>
+                        </div>
+                    </div>
+
+                    <div class="card pt-4 px-5" style="width: 20rem;">
+                        <img src="Pics/img5.jpg" height="200px" class="card-img-top" alt="olxCard">
+                        <div class="card-body">
+                            <p class="card-text"> RS 37,500 <br> <span> xiaomi poco x3 new condition... </span> </p>
+                        </div>
+                    </div>
+
+                    <div class="card pt-4 px-5" style="width: 20rem;">
+                        <img src="Pics/img6.jpg" height="200px" class="card-img-top" alt="olxCard">
+                        <div class="card-body">
+                            <p class="card-text"> RS 28,000 <br> <span> fibit ionic... </span> </p>
+                        </div>
+                    </div>
+
+                    <div class="card pt-4 px-5" style="width: 20rem;">
+                        <img src="Pics/img7.jpg" height="200px" class="card-img-top" alt="olxCard">
+                        <div class="card-body">
+                            <p class="card-text"> RS Rs 23,000 <br> <span> Contact 03097051400 </span> </p>
+                        </div>
+                    </div>
+
+                    <div class="card pt-4 px-5" style="width: 20rem;">
+                        <img src="Pics/img8.jpg" height="200px" class="card-img-top" alt="olxCard">
+                        <div class="card-body">
+                            <p class="card-text"> RS 3,500 <br> <span> baby dinning chair... </span> </p>
+                        </div>
+                    </div>
+
+                    <div class="card pt-4 px-5" style="width: 20rem;">
+                        <img src="Pics/img9.jpg" height="200px" class="card-img-top" alt="olxCard">
+                        <div class="card-body">
+                            <p class="card-text"> RS 6,500 <br> <span> free bag (box packed guitars)... </span> </p>
+                        </div>
+                    </div>
+
+                    <div class="card pt-4 px-5" style="width: 20rem;">
+                        <img src="Pics/img10.jpg" height="200px" class="card-img-top" alt="olxCard">
+                        <div class="card-body">
+                            <p class="card-text"> RS 6,000 <br> <span> alloy rim 17 inch... </span> </p>
+                        </div>
+                    </div>
+
+                    <div class="card pt-4 px-5" style="width: 20rem;">
+                        <img src="Pics/img11.jpg" height="200px" class="card-img-top" alt="olxCard">
+                        <div class="card-body">
+                            <p class="card-text"> RS 399 <br> <span> alfa drive, wifi USB adaptor... </span> </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-12 showMore">
+                <button type="button" class="btn btn-outline-success">Load More</button>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="row">
+            <div class="col-md-12 footer p-4">
+
+                <img src="Pics/footer.webp" alt="OLXImg">
+
+                <p>TRY THE OLX APP <span>Buy, sell and find just about anything using <br> the app on your
+                        mobile.</span></p>
+
+                <p class="footerText">GET YOUR APP TODAY <br> <img src="Pics/app.svg" alt="OLXImg">
+                    <img src="Pics/play.svg" alt="OLXImg">
+                </p>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 subFooter1">
+                <ul>
+                    <li class="subFooterHead">POPULAR CATEGORIES</li>
+                    <li><a href="">Cars</a></li>
+                    <li><a href="">Flats or Rent</a></li>
+                    <li><a href="">Jobs</a></li>
+                    <li><a href="">Mobile Phones</a></li>
+                </ul>
+                <ul>
+                    <li class="subFooterHead">TRENDING SEARCHES</li>
+                    <li><a href="">Bikes</a></li>
+                    <li><a href="">Watches</a></li>
+                    <li><a href="">Books</a></li>
+                    <li><a href="">Dogs</a></li>
+                </ul>
+                <ul>
+                    <li class="subFooterHead">ABOUT US</li>
+                    <li><a href="">About OLX Group</a></li>
+                    <li><a href="">OLX Blog</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">OLX for Businesses</a></li>
+                </ul>
+                <ul>
+                    <li class="subFooterHead">OLX</li>
+                    <li><a href="">Help</a></li>
+                    <li><a href="">Sitemap</a></li>
+                    <li><a href="">Legal & Privacy information</a></li>
+                </ul>
+                <p class="subFooterText">FOLLOW US
+                    <br>
+                    <a href="https://www.facebook.com/olxpakistan" target="_blank"><i
+                            class="fab fa-2x fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/OLX_Pakistan" target="_blank">
+                        <i class="fab fa-2x fa-twitter"></i> </a>
+                    <a href="https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1"
+                        target="_blank"><i class="fab fa-2x fa-youtube"></i> </a>
+                    <a href="https://www.instagram.com/olx.pakistan/" target="_blank"><i
+                            class="fab fa-2x fa-instagram"></i> </a>
+                    <br>
+                    <img src="Pics/app.svg" alt="OLXImg">
+                    <img src="Pics/play.svg" alt="OLXImg">
+                </p>
+
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-12 lastFooter">
+                <p>Other Countries India - South Africa - Indonesia</p>
+                <p>Free Classifieds in Pakistan. © 2006-2021 OLX</p>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-12 gototop">
+                <a href="#hello"><i class="fas fa-2x fa-arrow-up"></i></a>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
